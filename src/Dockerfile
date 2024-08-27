@@ -1,4 +1,4 @@
-FROM php:7.4-cli-alpine
+FROM php:cli-alpine
 RUN apk update
 RUN apk upgrade
 RUN reboot
