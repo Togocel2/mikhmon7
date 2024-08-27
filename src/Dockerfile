@@ -7,4 +7,3 @@ RUN git clone https://github.com/Togocel2/mikhmon7 src
 WORKDIR src
 ENTRYPOINT ["php"]
 CMD ["-S", "0.0.0.0:80", "-t", "/src/src/"]
-RUN docker buildx build .
